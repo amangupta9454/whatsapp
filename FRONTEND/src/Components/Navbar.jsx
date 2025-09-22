@@ -12,7 +12,7 @@ const Navbar = () => {
     { name: 'Career Path', to: '/career' },
     {name: 'Technical Assesment', to:'/assesment'},
     { name: 'Skill Analyzer', to: '/skillanalyzer' },
-    {name: 'Interview Review', to:'/interview-rev'},
+    // {name: 'Interview Review', to:'/interview-rev'},
     { name: 'Resume Builder', to: '/resume' },
     { name: 'Contact', to: '/contact' },
     { name: 'Login', to: '/login' },

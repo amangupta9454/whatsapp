@@ -11,7 +11,6 @@ import Register from './Components/Register';
 import Login from './Components/Login';
 import Dashboard from './Components/Dashboard';
 import VerifyOtp from './VerifyOtp';
-import Interview from './Components/Interview';
 
 // Layout component to include Navbar and Footer
 const LayoutWithFooter = ({ children }) => (
@@ -44,7 +43,7 @@ const App = () => {
         <Route path="/career" element={<LayoutWithoutFooter><CareerPath /></LayoutWithoutFooter>} />
         
         <Route path="/resume" element={<LayoutWithoutFooter><ResumeEmbed /></LayoutWithoutFooter>} />
-        <Route path="/interview-rev" element={<LayoutWithoutFooter><Interview /></LayoutWithoutFooter>} />
+       
         <Route path="/assesment" element={<LayoutWithoutFooter><Assesment /></LayoutWithoutFooter>} />
         <Route path="/register" element={<LayoutWithoutFooter><Register /></LayoutWithoutFooter>} />
         <Route path="/login" element={<LayoutWithoutFooter><Login /></LayoutWithoutFooter>} />
