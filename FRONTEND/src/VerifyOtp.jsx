@@ -14,7 +14,7 @@ const VerifyOtp = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await axios.post('http://localhost:5000/api/users/verify', { email, otp });
+      const res = await axios.post('https://whatsapp-6uml.onrender.com/api/users/verify', { email, otp });
       setMessage(res.data.message);
       setTimeout(() => navigate('/login'), 2000); // Redirect to login after success
     } catch (err) {

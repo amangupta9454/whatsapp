@@ -16,7 +16,7 @@
 //     e.preventDefault();
 //     setLoading(true);
 //     try {
-//       const res = await axios.post('http://localhost:5000/api/users/login', { email, password });
+//       const res = await axios.post('https://whatsapp-6uml.onrender.com/api/users/login', { email, password });
 //       localStorage.setItem('token', res.data.token);
 //       navigate('/dashboard');
 //     } catch (err) {
@@ -74,7 +74,7 @@ const Login = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await axios.post('http://localhost:5000/api/users/login', { email, password });
+      const res = await axios.post('https://whatsapp-6uml.onrender.com/api/users/login', { email, password });
       localStorage.setItem('token', res.data.token);
       navigate('/dashboard');
     } catch (err) {

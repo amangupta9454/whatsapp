@@ -16,7 +16,7 @@ const Dashboard = () => {
     }
 
     axios
-      .get('http://localhost:5000/api/users/profile', {
+      .get('https://whatsapp-6uml.onrender.com/api/users/profile', {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((res) => setUser(res.data))
